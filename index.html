@@ -7,51 +7,70 @@
   <title>Inicio</title>
   <link rel="shortcut icon" href="./assets/dlh.png" width="16px">
   <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li class="menu"><a href="index.html"><img src="./assets/dlh.png" alt="Logo dlh" width="200px"></a></li>
-        <li class="productos"><a href="./pages/camaras.html"><img src="./assets/panasud.png" alt="Logo Panasud" width="200px"></a></li>
-        <li class="productos"><a href="./pages/bicicletas.html"><img src="./assets/kinkek.png" alt="Kinnek" title="Kinnek" width="200px"></a></li>
-        <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Productos</a>
-        <div class="dropdown-content">
-          <a href="./pages/camaras.html">Camaras</a>
-          <a href="./pages/bicicletas.html">Bicicletas</a>
-          <a href="./pages/repuestos.html">Repuestos</a>
-        </div>
-        <li style="float:right"><a class="active" href="./pages/contacto.html">Contacto</a></li>
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html"><img src="./assets/dlh.png" alt="Logo DLH" title="Logo DLH" width="175px" height="150px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>  
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Productos</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./pages/camaras.html">Camaras</a></li>
+              <li><a class="dropdown-item" href="./pages/bicicletas.html">Biciceltas</a></li>
+              <li><a class="dropdown-item" href="./pages/repuestos.html">Repuestos</a></li>
+            </ul>
+          </li>
+          <li class="float:right">
+            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <article class="articulo row">
+    <div class="container-fluid mt-3"></div>
+    </div>
+    <div class="top">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    </b>
+  </div>
+    <div class="productos">
+      <ul class="row">
+        <h3>Nuestros Productos</h3>
+        <li class="col col-md-2 lg-2 xl-2"><a href="./pages/bicicletas.html"><img src="./assets/bicicelta.jpg" class="img-fluid" alt="Biciceltas" title="Biciceltas" width="300px" height="300px"></a></li>
+        <li class="col col-md-2 lg-2 xl-2"><a href="./pages/camaras.html"><img src="./assets/camara.png" class="img-fluid" alt="Camaras" title="Camaras" width="300px" height="300px"></a></li>
+        <li class="col col-md-2 lg-2 xl-2"><a href="./pages/repuestos.html"><img src="./assets/coronakinn.png" class="img-fluid" alt="Repuestos" title="Repuestos" width="300px" height="300px"></a></li>
       </ul>
-    </nav>
-  </header>
-  <br>
-  <br>
-  <br>
-  <br>
-  <section>
-    <h1 class="titulo">Productos</h1>
-    <br>
-    <br>
-    <ul class="articulos">
-    <h3 class="Titulo">Productos</h3>
-        <li class="pp"><a href="./pages/camaras.html"><img src="./assets/camara.png" alt="Camaras" title="Camaras" width="200px"></a></li>
-        <li cl\pp><a href="./pages/bicicletas.html"><img src="./assets/bicicelta.jpg" alt="Bicicleta" title="Bicicleta" width="200px"></a></li>
-        <li class="pp"><a href="./pages/repuestos.html"><img src="./assets/coronakinn.png" alt="Repuestos" title="Repuestos" width="200px"></a></li>
-    </ul>
-  </section>
-  <br>
-  <br>
-  <br>
-  <hr color="black">
+    </div>
+  </article>
+</div>
+<br>
+<br>
   <footer>
-
-	  <h3><a href="../index.html".html"><img src="../assets/dlh.png" alt="home" title="home" width="200px"></a></h3>
-	  <h3><a href="https://www.instagram.com/" VISITA NUESTRO INSTAGRAM><img src="../assets/instagram.png" alt="INSTAGRAM" title="Visita nuesto instagram"></a></h3>
-	  <h3><a href="./pages/contacto.html">Contacto</a></h3>
-
+    <div class="row">
+    <ul class="row">
+	    <li class="col col-md-2 lg-3"><a href="../index.html"><img src="../assets/dlh.png" alt="home" title="home" width="200px"></a></li>
+	    <li class="col col-md-2 lg-3"><a href="https://www.instagram.com/" VISITA NUESTRO INSTAGRAM><img src="../assets/instagram.png" alt="INSTAGRAM" title="Visita nuesto instagram"></a></li>
+    </ul>
+      <hr>
+	    <h3 class="col col-md-2 lg-3"><a href="./pages/contacto.html">Contacto</a></h3>
   </footer>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
